@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;  /* Para flex: grow no menu */
+    flex-direction: column;
+
     background-color: #e5e5e5;
 }

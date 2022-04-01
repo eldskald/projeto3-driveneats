@@ -9,18 +9,18 @@
     align-items: center;
 
     padding-left: 32px;
-    background-color: #FF4B94;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ff4b94;
+    box-shadow: 0px 6px 6px #c0c0c0;
 }
 
 .barra-topo > div > h1 {
     font-family: "Righteous";
     font-size: 44px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .barra-topo > div > h2 {
     font-family: "Roboto";
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
