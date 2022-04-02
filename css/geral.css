@@ -12,3 +12,7 @@ body {
 
     background-color: #e5e5e5;
 }
+
+.escondido {  /* Pra mostrar/esconder tags com javascript */
+    display: none;
+}
