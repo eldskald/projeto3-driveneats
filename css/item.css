@@ -47,20 +47,20 @@
 
 .item > div > h1 {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     color: #000000;
 }
 
 .item > div > h2 {
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 10px;
     color: #666666;
 }
 
 .item > div > div > h3, h4 {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 12px;
     color: #000000;
 
     display: inline;
