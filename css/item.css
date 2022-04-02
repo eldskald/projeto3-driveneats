@@ -58,9 +58,10 @@
     color: #666666;
 }
 
-.item > div > h3 {
+.item > div > div > h3, h4 {
     font-family: "Roboto";
     font-size: 16px;
     color: #000000;
-}
 
+    display: inline;
+}

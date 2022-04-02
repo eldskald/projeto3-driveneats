@@ -1,0 +1,6 @@
+/* Esse script é pra classes que podem ser adicionadas em todas as outras. */
+/* Uma classe que apenas aparece em outra classe vai estar no .css da sua classe. */
+
+.escondido {  /* Pra mostrar/esconder tags com javascript */
+    display: none;
+}
