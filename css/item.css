@@ -1,9 +1,10 @@
 .item {
-    min-width: 40%;
+    width: 40%;
     height: 100%;
     margin-right: 16px;
     padding: 8px;
 
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
 
