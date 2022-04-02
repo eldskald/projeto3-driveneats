@@ -38,3 +38,22 @@ function escolherItem (item) {
         document.querySelector(".texto-pronto").classList.remove("escondido");
     }
 }
+
+function finalizarPedido () {
+    if (pegouPrato && pegouBebida && pegouSobremesa) {
+        let nome = prompt("Qual o seu nome?");
+        let endereco = prompt("Qual o seu endereço?");
+        irParaWA(nome, endereco);
+    }
+}
+
+function irParaWA (nome, endereco) {
+    let mensagem = encodeURIComponent("Olá, gostaria de fazer o pedido:\n");
+    mensagem += encodeURIComponent("- Prato: Frango Yin Yang\n");
+    mensagem += encodeURIComponent("- Bebida: Coquinha Gelada\n");
+    mensagem += encodeURIComponent("- Sobremesa: Pudim\n");
+    mensagem += encodeURIComponent("Total: R$ 27.70\n\n");
+    mensagem += encodeURIComponent(`Nome: ${nome}\n`);
+    mensagem += encodeURIComponent(`Endereço: ${endereco}...`);
+    window.location.href = "https://wa.me/5511976429946/?text=" + mensagem;
+}
