@@ -54,6 +54,6 @@ function irParaWA (nome, endereco) {
     mensagem += encodeURIComponent("- Sobremesa: Pudim\n");
     mensagem += encodeURIComponent("Total: R$ 27.70\n\n");
     mensagem += encodeURIComponent(`Nome: ${nome}\n`);
-    mensagem += encodeURIComponent(`Endereço: ${endereco}...`);
+    mensagem += encodeURIComponent(`Endereço: ${endereco}`);
     window.location.href = "https://wa.me/5511976429946/?text=" + mensagem;
 }
